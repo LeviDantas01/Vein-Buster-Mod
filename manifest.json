@@ -1,0 +1,26 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Vein Buster Mod",
+        "description": "Mine ore veins and trees.",
+        "uuid": "338b2784-1499-4731-a9a9-700d29cb6824",
+        "version": [1, 0, 4],
+        "min_engine_version": [1, 26, 33]
+    },
+    "modules": [
+        {
+            "description": "Script Vein Buster",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "0f39ee4a-fe68-4f18-a972-8d0242cb3513",
+            "version": [1, 0, 4],
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.14.0"
+        }
+    ]
+}
